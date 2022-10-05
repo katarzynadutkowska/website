@@ -7,7 +7,7 @@
 /* BG */
 
 	body.is-preload #bg:before {
-		background-color: black;
+		background-color: transparent;
 	}
 
 /* Header */
