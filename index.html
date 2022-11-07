@@ -82,12 +82,20 @@
 								|
 								<a href="https://ui.adsabs.harvard.edu/search/q=author%3A%22Dutkowska%2C%20K.%20M.%22&sort=date%20desc%2C%20bibcode%20desc&p_=0">NASA/ADS</a>
 								</p>
-								<h3 class="major">CV</h3>
-								<embed src="CV_for_website_.pdf" width="500" height="400" type="application/pdf">
-								<p>  </p>
-								<h3 class="major">List of publications (incl. posters)</h3>
-								<embed src="List of publications.pdf" width="500" height="400" type="application/pdf">
-								<p> Last updated: 05.10.2022</p>
+								<html> 
+								  <head> 
+								    <script src="jquery.js"></script> 
+								    <script> 
+								    $(function(){
+								      $("#includedContent").load("b.html"); 
+								    });
+								    </script> 
+								  </head> 
+								
+								  <body> 
+								     <div id="includedContent"></div>
+								  </body> 
+								</html>
 							</article>
 
 						<!-- Teaching -->
